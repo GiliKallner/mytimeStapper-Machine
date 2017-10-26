@@ -2,23 +2,23 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-
-  "name": "myTimeStamper machine",
+  "name": "Request Header Parser Microservice",
   "version": "0.0.1",
-  "description": "What am I about?",
+  "description": "A simple app of a request for a header parser microservice",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.16.2",
+    "express-useragent": "^1.0.8",
     "strftime": "^0.10.0"
   },
   "engines": {
     "node": "8.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/welcome-project"
+    "url": "https://github.com/RaphaelSh/Request-Header-Parser-Microservice.git"
   },
   "license": "MIT",
   "keywords": [
