@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Welcome to the Glitch BETA
 =========================
 
@@ -25,3 +26,7 @@ Made by [Fog Creek](https://fogcreek.com/)
 -------------------
 
 \ ゜o゜)ノ
+=======
+# mytimeStapper-Machine
+A solution to the first freecodecamp backend challange 
+>>>>>>> f840830217cf600299632e786731337d919f607e
