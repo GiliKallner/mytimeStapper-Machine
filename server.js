@@ -1,20 +1,15 @@
-// server.js
-// where your node app starts
 
-// init project
 const express = require('express');
 const app = express();
 const http = require('http');
 
  app.use(express.static('public'));
  
-// http://expressjs.com/en/starter/basic-routing.html
 app.get("/", function (req, res) {
   
    
    res.sendFile(__dirname + '/views/index.html');
-  // res.send(obj);
-   //res.end();
+  
 });
 
 app.post("/",(req,res) => {
@@ -33,7 +28,7 @@ app.post("/",(req,res) => {
    };
   return res.json(obj);
 });
-// listen for requests :)
+
 var listener = app.listen(process.env.PORT, function () {
   console.log('Your app is listening on port ' + listener.address().port);
 });
