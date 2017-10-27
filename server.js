@@ -8,8 +8,6 @@ const url = require('url');
 const strtime = require('strftime');
 
 app.use(express.static('public'));
- 
-
 
 let getJsonTime = t =>{
 
@@ -31,7 +29,6 @@ app.get('/:timestamp',(req,res)=>{
 app.get("/", function (request, response) {
   response.sendFile(__dirname + '/views/index.html');
 });
-
 
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
